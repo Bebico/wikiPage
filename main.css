@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	font-family: sans-serif;
+	background-color: #FAFAFA;
+}
+
+.main-div {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-div {
+	width: 10%;
+}
+
+.footer {
+	background-color: #FAFAFA;
+}
+
+.content {
+	background-color: white;
+}
+/* help colors */
+/* .header {
+	background-color: yellow;
+}
+
+.left-div {
+	background-color: red;
+}
+
+.content {
+	background-color: blue;
+} */
+
+img{
+	width: 100%;
+}
+
+.header {
+	text-align: right;
+}
+
+.header li, a {
+	font-size: .75rem;
+	display: inline;
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+#main-nav {
+	margin: 2px;
+}
