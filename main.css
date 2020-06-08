@@ -6,16 +6,25 @@
 	display: flex;
 	font-family: sans-serif;
 	background-color: #FAFAFA;
+	font-size: 16px;
 }
 
 .main-div {
-	width: 90%;
+	width: 88%;
 	display: flex;
 	flex-direction: column;
 }
 
 .left-div {
-	width: 10%;
+	font-size: 0.75rem;
+	width: 12%;
+	text-align: left;
+	line-height: 18px;
+}
+
+.left-div li, a {
+	text-decoration: none;
+	list-style: none;
 }
 
 .footer {
@@ -24,6 +33,11 @@
 
 .content {
 	background-color: white;
+	width: 100%;
+}
+
+.left-div-main, .contribute, .tools, .languages, .print-export {
+	padding-bottom: 10px;
 }
 /* help colors */
 /* .header {
@@ -39,20 +53,6 @@
 } */
 
 img{
-	width: 100%;
-}
-
-.header {
-	text-align: right;
-}
-
-.header li, a {
-	font-size: .75rem;
-	display: inline;
-	text-decoration: none;
-	padding: 0 5px;
-}
-
-#main-nav {
-	margin: 2px;
+	width: 75%;
+	margin: 0 20px;
 }
