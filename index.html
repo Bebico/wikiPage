@@ -4,6 +4,7 @@
 <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -59,7 +60,7 @@
     </div>
     <div class="main-div">
       <div class="header">
-        <ul id="main-nav">
+        <ul>
           <li><a href="">Talk</a></li>
           <li><a href="">Contributions</a></li>
           <li><a href="">Create acount</a></li>
@@ -68,14 +69,16 @@
       </div>
       <div class="content">
         <div id="content-navbar">
-          <ul>
-            <li><a href="#">Article</a></li>
-            <li><a href="#">Talk</a></li>
-            <li><input type="search" placeholder="Search Wikipedia" style="float: right;"></li>
-            <li><a href="#" style="float: right;">View History</a></li>
-            <li><a href="#" style="float: right;">Edit</a></li>
-            <li><a href="#" style="float: right;">Read</a></li>
-          </ul>
+          <button type="button" name="button" id="grad" class="tablink">Article</button>
+          <button type="button" name="button" id="grad" class="tablink">Talk</button>
+
+          <button type="button" name="button" id="grad" class="tablink" style="float: right;">View History</button>
+          <button type="button" name="button" id="grad" class="tablink" style="float: right;">Edit</button>
+          <button type="button" name="button" id="grad" class="tablink" style="float: right;">Read</button>
+
+        </div>
+        <div class="main-content">
+          <p>main content</p>
         </div>
       </div>
     </div>

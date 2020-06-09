@@ -25,6 +25,18 @@
 .left-div li, a {
 	text-decoration: none;
 	list-style: none;
+	padding: 0 5px;
+}
+
+.header {
+	text-align: right;
+	font-size: 0.75rem;
+}
+
+.header li, a{
+	text-decoration: none;
+	list-style: none;
+	display: inline;
 }
 
 .footer {
@@ -39,6 +51,37 @@
 .left-div-main, .contribute, .tools, .languages, .print-export {
 	padding-bottom: 10px;
 }
+
+#content-navbar li, a{
+	display: inline;
+	list-style: none;
+	font-size: .75rem;
+}
+
+#grad {
+  background-image: linear-gradient(white, #EBF4F9);
+	font-size: .75rem;
+	padding: 5px;
+}
+
+.tablink {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+/* .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+.main-content {
+	border: 1px solid #A7D7F9;
+}
+
+
 /* help colors */
 /* .header {
 	background-color: yellow;
