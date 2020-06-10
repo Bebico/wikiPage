@@ -3,8 +3,8 @@
 <head>
 <title>CSS Template</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<meta name="viewport" content="width=device-width  initial-scale=1">
+<script src="https://kit.fontawesome.com/26a4054130.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -71,14 +71,22 @@
         <div id="content-navbar">
           <button type="button" name="button" id="grad" class="tablink">Article</button>
           <button type="button" name="button" id="grad" class="tablink">Talk</button>
-
+          <form style="float: right;">
+            <input type="text" class="seach_box" placeholder="Search Wikipedia">
+            <i class="fas fa-search"></i>
+          </form>
           <button type="button" name="button" id="grad" class="tablink" style="float: right;">View History</button>
           <button type="button" name="button" id="grad" class="tablink" style="float: right;">Edit</button>
           <button type="button" name="button" id="grad" class="tablink" style="float: right;">Read</button>
-
         </div>
         <div class="main-content">
-          <p>main content</p>
+          <h1 id="first-header">Communist Mutants from Space</h1>
+          <p id="first-p">From Wikipedia, the free encyclopedia</p>
+          <div class="main-article">
+            <div class="contents"></div>
+            <div class="cover"></div>
+            <div class="gameplay"></div>
+          </div>
         </div>
       </div>
     </div>

@@ -81,6 +81,53 @@
 	border: 1px solid #A7D7F9;
 }
 
+#content-navbar{
+		position: relative;
+}
+
+.search_box {
+	width: 20%;
+	position: relative;
+	display: inline-block;
+}
+
+.search_box input[type="text"]{
+	width: 100%;
+	padding: 20px;
+	padding-right: 60px;
+}
+
+.fa-search {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 25px;
+	font-size: 15px;
+}
+
+
+#first-header {
+    font-family: Linux;
+		font-style: italic;
+		font-weight: normal;
+		margin-bottom: 8px;
+		margin-left: 13px;
+}
+
+#first-header::after {
+    content:"";
+    display: block;
+    height: 1px;
+    width: 90%;
+    border-top: 1px solid lightgrey;
+		margin-left: 5px;
+}
+
+#first-p{
+	margin-top: 1px;
+	margin-left: 15px;
+	font-size: 12px;
+}
 
 /* help colors */
 /* .header {
