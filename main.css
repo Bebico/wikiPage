@@ -1,5 +1,16 @@
 * {
 	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .main {
@@ -53,6 +64,12 @@
 }
 
 #content-navbar li, a{
+	display: inline;
+	list-style: none;
+	font-size: .75rem;
+}
+
+#footer-nav li{
 	display: inline;
 	list-style: none;
 	font-size: .75rem;
@@ -114,6 +131,7 @@
 		margin-left: 13px;
 }
 
+
 #first-header::after {
     content:"";
     display: block;
@@ -123,12 +141,46 @@
 		margin-left: 5px;
 }
 
+#h3-header{
+	font-family: Linux;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-left: 13px;
+}
+
+#h3-header::after {
+    content:"";
+		width: 70%;
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid lightgrey;
+		margin-left: 5px;
+		margin-top: 8px;
+}
+
+p {
+	margin-left: 8px;
+}
+
 #first-p{
 	margin-top: 1px;
 	margin-left: 15px;
 	font-size: 12px;
 }
 
+#gameplay_image {
+	width: 222px;
+	float: left;
+	background-color: #F8F9FA;
+	border: 1px solid #A7D7F9;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#gameplay_image img{
+	width: 204px;
+	margin: 2px 8px 10px 8px;
+}
 /* help colors */
 /* .header {
 	background-color: yellow;
@@ -155,17 +207,10 @@
 	float: right;
 	background-color: #F8F9FA;
 	border: 1px solid #A7D7F9;
+	margin-left: 10px;
 }
 
-.clearfix {
-  overflow: auto;
-}
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 figcaption{
 	text-align: center;
@@ -176,6 +221,7 @@ figcaption{
 	width: 180px;
 	border: 1px solid #A7D7F9;
 	background-color: #F8F9FA;
+	margin-left: 10px;
 }
 
 ol > li {
