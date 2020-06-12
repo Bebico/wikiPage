@@ -21,14 +21,14 @@
 }
 
 .main-div {
-	width: 88%;
+	width: 88vw;
 	display: flex;
 	flex-direction: column;
 }
 
 .left-div {
 	font-size: 0.75rem;
-	width: 12%;
+	width: 12vw;
 	text-align: left;
 	line-height: 18px;
 }
@@ -61,6 +61,11 @@
 
 .left-div-main, .contribute, .tools, .languages, .print-export {
 	padding-bottom: 10px;
+
+}
+
+.left-div ul{
+	padding-left: 0;
 }
 
 #content-navbar li, a{
@@ -88,11 +93,6 @@
   padding: 14px 16px;
   font-size: 17px;
 }
-/* .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
 
 .main-content {
 	border: 1px solid #A7D7F9;
@@ -239,4 +239,14 @@ ol ol > li {
 ol ol > li:before {
     content: counters(item, ".") ". ";
     margin-left: -20px;
+}
+
+
+#bordered::after {
+	display: block;
+	content: "";
+	background: linear-gradient(to left, lightgrey, grey 50%, grey 50%, lightgrey );
+	height: .4px;
+	width: 75%;
+	margin-bottom: 8px;
 }
